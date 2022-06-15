@@ -2,7 +2,7 @@
 const tableData = data;
 
 // Reference the HTML table using d3 ("Data-Driven Documents" JavaScript library)
-var tbody = d3.select("tbody"); // Selects the first element (of some HTML code that `d3` will point to) that matches the string "tbody".
+var tbody = d3.select("tbody"); // Selects the first element (of the HTML code that calls this script) that matches the string "tbody".
                                 // https://github.com/d3/d3-selection/blob/v3.0.0/README.md#select
 
 function buildTable(data) {
