@@ -31,7 +31,7 @@ Users can also enter values into multiple fields, and the page will return resul
 Although the page can easily pare down the data if the user knows specifically what to look for, there are several notable limitations to it, at present.
 
 1. The filters can only check for exact matches.
-   - A partial match is insufficient. So if, for example, a user enters [west]() into the City field, it will return no matches, despite the presence of cities [west boylston](./static/images/west_boylston.png) and [westbrook](./static/images/westbrook.png) appearing in the list.
+   - A partial match is insufficient. So if, for example, a user enters [west](./static/images/west.png) into the City field, it will return no matches, despite the presence of cities [west boylston](./static/images/west_boylston.png) and [westbrook](./static/images/westbrook.png) appearing in the list.
    - A difference in capitalization counts as a different filter. [West Boylston](./static/images/West_Boylston_proper_case.png), for example, returns no results, while [west boylston](./static/images/west_boylston.png), on the other hand, returns 1 result.
 2. Multiple filters are read as `AND` only; it is not possible to filter, for example, for sightings in the state of Arkansas (ar) `OR` in the country of Canada (ca).
 
